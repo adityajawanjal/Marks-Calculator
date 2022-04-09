@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    list-style-type: none;
+}
+body{
+    background-color: aliceblue; 
+}
+.main{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-items: center;
+}
+.inner{
+    width:60vw;
+    height:auto;
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-radius:10rem;
+    background-color:rgb(222, 199, 199);
+    border:2px solid brown;
+   
+}
+button{
+    margin:2rem;
+    width:20vw;
+    height:auto;
+    font-size: larger;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.result{
+    display:none;
+}
